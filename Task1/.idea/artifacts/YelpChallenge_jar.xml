@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="YelpChallenge:jar">
+    <output-path>$PROJECT_DIR$/jars</output-path>
+    <root id="root">
+      <element id="archive" name="YelpChallenge.jar">
+        <element id="module-output" name="YelpChallenge" />
+      </element>
+      <element id="library" level="project" name="org.apache.spark:spark-sql_2.10:1.1.1" />
+      <element id="library" level="project" name="org.apache.spark:spark-core_2.10:1.1.1" />
+      <element id="library" level="project" name="org.apache.lucene:lucene-analyzers-common:5.3.1" />
+      <element id="library" level="project" name="org.apache.lucene:lucene-core:5.3.1" />
+    </root>
+  </artifact>
+</component>
